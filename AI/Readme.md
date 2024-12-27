@@ -1,1 +1,2 @@
-docker pull pytorch/pytorch:2.5.1-cuda12.1-cudnn9-devel
+docker build -t ai .
+docker run --name=ai -d -t ai
