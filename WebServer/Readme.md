@@ -1,2 +1,2 @@
 docker build -t web .  
-docker run --name=ai -d -t web
+docker run --name=web -d -t web
