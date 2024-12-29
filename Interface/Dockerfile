@@ -13,6 +13,4 @@ RUN pip3 install --no-cache-dir -r tmp/requirement.txt
 RUN git config --global user.name "Your Name" \
     && git config --global user.email "youremail@example.com"
 
-#RUN git clone "Git Address" Capstone
-
 WORKDIR /usr/src/app/Capstone
