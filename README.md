@@ -12,8 +12,8 @@ Web Server : v1.0
 ## AI
 >version : v1.0  
 >Update :  
-- Date : 2024.12.29
-- Deatails :  AI 개발 환경 구축 
+>- Date : 2024.12.29
+>- Deatails :  AI 개발 환경 구축 
 
 
 
@@ -23,8 +23,8 @@ Web Server : v1.0
 ## Interface
 >version : v1.0  
 >Update :  
-- Date : 2024.12.29
-- Deatails :  Interface 개발 환경 구축
+>- Date : 2024.12.29
+>- Deatails :  Interface 개발 환경 구축
 
 
 <br/><br/>
@@ -33,8 +33,8 @@ Web Server : v1.0
 ## Web Server
 >version : v1.0  
 >Update :  
-- Date : 2024.12.29
-- Deatails :  Web Server 개발 환경 구축  
+>- Date : 2024.12.29
+>- Deatails :  Web Server 개발 환경 구축  
 
 
 <br/><br/>
