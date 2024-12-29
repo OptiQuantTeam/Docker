@@ -5,4 +5,4 @@ RUN apt-get install git -y
 
 RUN git config --global user.name "Your Name" \
     && git config --global user.email "youremail@example.com"
-RUN git clone -b "branch Name" https://github.com/OptiQuantTeam/AI.git ./workspace
+RUN git clone -b "branch Name" https://github.com/OptiQuantTeam/AI.git .
