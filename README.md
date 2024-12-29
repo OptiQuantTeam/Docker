@@ -1,26 +1,35 @@
 # Dockerfile latest Version  
 **최신 버전을 꼭 확인할 것!!**  
+**이미지 생성시 {imageName}:{version}을 주의하여 적을 것!!**
 ```
-AI         : v1.0   
-Interface  : v1.0  
-Web Server : v1.0
+AI         : v1.1   
+Interface  : v1.1  
+Web Server : v1.1
 ```   
   
 
 
 
 ## AI
->version : v1.0  
+>version : v1.1  
 >Update :  
 >- Date : 2024.12.29
->- Deatails :  AI 개발 환경 구축 
+>- Deatails :  git clone 명령어로 repository의 파일을 다운 받을 수 있게 변경  
 
-
+>version : v1.0 
+>Update :  
+>- Date : 2024.12.29
+>- Deatails :  AI 개발 환경 구축  
 
 <br/><br/>
 
 ---
 ## Interface
+>version : v1.1  
+>Update :  
+>- Date : 2024.12.29
+>- Deatails :  git clone 명령어로 repository의 파일을 다운 받을 수 있게 변경
+
 >version : v1.0  
 >Update :  
 >- Date : 2024.12.29
@@ -31,6 +40,11 @@ Web Server : v1.0
 
 ---
 ## Web Server
+>version : v1.1  
+>Update :  
+>- Date : 2024.12.29
+>- Deatails :  git clone 명령어로 repository의 파일을 다운 받을 수 있게 변경
+
 >version : v1.0  
 >Update :  
 >- Date : 2024.12.29
