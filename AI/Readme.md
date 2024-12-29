@@ -1,3 +1,5 @@
+### **이미지 생성시 {imageName}:{version}을 주의하여 적을 것!!**
+
 ### Dockerfile 수정
 큰 따옴표로 이루어진 부분에 적절한 값으로 변경
 >Your Name => 이름  
