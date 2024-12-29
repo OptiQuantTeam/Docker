@@ -14,3 +14,5 @@ RUN git config --global user.name "Your Name" \
     && git config --global user.email "youremail@example.com"
 
 WORKDIR /usr/src/app/Capstone
+
+RUN git clone -b "branch Name" https://github.com/OptiQuantTeam/Interface.git .
