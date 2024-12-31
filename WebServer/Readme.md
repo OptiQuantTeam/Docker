@@ -5,7 +5,7 @@
 2. 그 안에 다운 받은 Dockerfile을 넣는다. (requirement.txt 파일이 있다면 같이)
 3. Dockerfile 안의 코드를 약간 수정한다.
   1) 만약 자신이 개발하던 branch가 없다면 branch Name에 develop을 넣는다.
-      그런 다음 5번의 내용까지 완료하고 원격 접속을 한 후 (경로 유의 : /django/Capstone) 
+      그런 다음 5번의 내용까지 완료하고 원격 접속을 한 후 (경로 유의 : /django/CapstoneWeb) 
         git branch -M "개인 branch명"
         git push -u origin "개인 branch명"
       을 입력하여 새로운 branch를 만든다.
