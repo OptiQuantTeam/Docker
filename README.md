@@ -16,7 +16,7 @@ Web Server : v1.1
 >- Date : 2024.12.29
 >- Deatails :  git clone 명령어로 repository의 파일을 다운 받을 수 있게 변경  
 
->version : v1.0 
+>version : v1.0  
 >Update :  
 >- Date : 2024.12.29
 >- Deatails :  AI 개발 환경 구축  
