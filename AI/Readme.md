@@ -21,11 +21,11 @@
 >branch Name => 브랜치 이름  
 
 ### **이미지 빌드**  
-```docker build --platform linux/amd64 -t ai:v1.1 .```  
+```docker build --platform linux/amd64 -t ai:v1.2 .```  
 
 
 ### **컨테이너 실행**  
-```docker run --platform linux/amd64 --name=ai -d -t ai:v1.1```  
+```docker run --platform linux/amd64 --name=ai -d -t ai:v1.2```  
 
 
 ### **vscode 원격 접속**

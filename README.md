@@ -2,7 +2,7 @@
 **최신 버전을 꼭 확인할 것!!**  
 **이미지 생성시 {imageName}:{version}을 주의하여 적을 것!!**
 ```
-AI         : v1.1   
+AI         : v1.2   
 Interface  : v1.1  
 Web Server : v1.1
 ```   
@@ -11,15 +11,20 @@ Web Server : v1.1
 
 
 ## AI
+>version : v1.2  
+>Update :  
+>- Date : 2025.01.05
+>- Deatails : jupyter, pandas, matplotlib 라이브러리를 포함하는 requirement.txt 추가  
+
 >version : v1.1  
 >Update :  
 >- Date : 2024.12.29
->- Deatails :  git clone 명령어로 repository의 파일을 다운 받을 수 있게 변경  
+>- Deatails : git clone 명령어로 repository의 파일을 다운 받을 수 있게 변경  
 
 >version : v1.0  
 >Update :  
 >- Date : 2024.12.29
->- Deatails :  AI 개발 환경 구축  
+>- Deatails : AI 개발 환경 구축  
 
 <br/><br/>
 
@@ -28,12 +33,12 @@ Web Server : v1.1
 >version : v1.1  
 >Update :  
 >- Date : 2024.12.29
->- Deatails :  git clone 명령어로 repository의 파일을 다운 받을 수 있게 변경
+>- Deatails : git clone 명령어로 repository의 파일을 다운 받을 수 있게 변경
 
 >version : v1.0  
 >Update :  
 >- Date : 2024.12.29
->- Deatails :  Interface 개발 환경 구축
+>- Deatails : Interface 개발 환경 구축
 
 
 <br/><br/>
@@ -43,12 +48,12 @@ Web Server : v1.1
 >version : v1.1  
 >Update :  
 >- Date : 2024.12.29
->- Deatails :  git clone 명령어로 repository의 파일을 다운 받을 수 있게 변경
+>- Deatails : git clone 명령어로 repository의 파일을 다운 받을 수 있게 변경
 
 >version : v1.0  
 >Update :  
 >- Date : 2024.12.29
->- Deatails :  Web Server 개발 환경 구축  
+>- Deatails : Web Server 개발 환경 구축  
 
 
 <br/><br/>
