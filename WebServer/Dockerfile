@@ -1,37 +1,32 @@
-FROM python:3.11.10
+FROM node:20.18
 
 RUN apt-get -y update && apt-get -y upgrade
 RUN apt-get install git -y
-# Set the default value for the 'app_name' argument
-ARG app_name=CapstoneWeb
-ENV APP_NAME $app_name  
 
-# Set the PYTHONUNBUFFERED environment variable to ensure Python prints directly to terminal
-ENV PYTHONUNBUFFERED 1
-
-# Set the working directory inside the container to '/django'
-WORKDIR /django
-
-# Install Django using pip
-RUN pip install Django
-
-# RUN apt-get update && apt-get install -y mariadb-client
-
-# Start a new Django project named as specified in the 'app_name' argument
-#RUN django-admin startproject $app_name
+WORKDIR /app
 
 RUN git config --global user.name "Your Name" \
     && git config --global user.email "youremail@example.com"
 
 # github repository에 있는 파일 가져오기
-RUN git clone -b "branch Name" https://github.com/OptiQuantTeam/WebServer.git ./${APP_NAME}
+RUN git clone -b "branch Name" https://github.com/OptiQuantTeam/WebServer.git .
+
+# package.json 워킹 디렉토리에 복사 (.은 설정한 워킹 디렉토리를 뜻함)
+#COPY package.json .
+# 명령어 실행 (의존성 설치)
+RUN npm install
+# 현재 디렉토리의 모든 파일을 도커 컨테이너의 워킹 디렉토리에 복사한다.
+
+# 각각의 명령어들은 한줄 한줄씩 캐싱되어 실행된다.
+# package.json의 내용은 자주 바뀌진 않을 거지만
+# 소스 코드는 자주 바뀌는데
+# npm install과 COPY . . 를 동시에 수행하면
+# 소스 코드가 조금 달라질때도 항상 npm install을 수행해서 리소스가 낭비된다.
 
 
-# Update the 'ALLOWED_HOSTS' setting in the Django project's settings.py file
-RUN sed -i "s/ALLOWED_HOSTS = \[\]/ALLOWED_HOSTS = \['*'\]/g" ./${APP_NAME}/${APP_NAME}/settings.py
 
-# Expose port 8000 to allow external access
-EXPOSE 8000
+# 3000번 포트 노출
+EXPOSE 3050
 
-# Specify the command to run the Django development server when the container starts
-#CMD ["sh", "-c", "python ./${APP_NAME}/manage.py runserver 0.0.0.0:8000"]
+# npm start 스크립트 실행
+#CMD ["npm", "start"]
