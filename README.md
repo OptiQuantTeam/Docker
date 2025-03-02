@@ -2,7 +2,7 @@
 **최신 버전을 꼭 확인할 것!!**  
 **이미지 생성시 {imageName}:{version}을 주의하여 적을 것!!**
 ```
-AI         : v1.2   
+AI         : v1.2.1   
 Interface  : v1.1  
 Web Server : v1.1
 ```   
@@ -11,6 +11,11 @@ Web Server : v1.1
 
 
 ## AI
+>version : v1.2.1  
+>Update :  
+>- Date : 2025.03.02
+>- Deatails : nvidia GPU용 Docker 이미지 빌드 및 컨테이너 생성 추가    
+
 >version : v1.2  
 >Update :  
 >- Date : 2025.01.05

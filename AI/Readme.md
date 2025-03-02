@@ -1,4 +1,27 @@
+### **requirement.txt 파일을 꼭 다운로드할 것!!**  
 ### **이미지 생성시 {imageName}:{version}을 주의하여 적을 것!!**
+
+### **이미지 빌드 및 컨테이너 실행**  
+```
+docker build -t ai:v1.2 .
+```  
+
+
+### **컨테이너 실행**  
+Nvidia GPU 이용시
+```
+docker run --gpus all --name=ai -d -t ai:v1.2
+```   
+```
+docker run --name=ai -d -t ai:v1.2
+```  
+
+
+### **vscode 원격 접속**   
+
+
+
+
 
 ```
 1. AI 폴더를 만든다.
@@ -15,17 +38,9 @@
 ```
 
 ### Dockerfile 수정
+
 큰 따옴표로 이루어진 부분에 적절한 값으로 변경
+
 >Your Name => 이름  
 >youremail@example.com => 이메일 주소  
 >branch Name => 브랜치 이름  
-
-### **이미지 빌드**  
-```docker build --platform linux/amd64 -t ai:v1.2 .```  
-
-
-### **컨테이너 실행**  
-```docker run --platform linux/amd64 --name=ai -d -t ai:v1.2```  
-
-
-### **vscode 원격 접속**
