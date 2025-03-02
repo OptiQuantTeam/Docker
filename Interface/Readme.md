@@ -1,6 +1,20 @@
 ### **requirement.txt 파일을 꼭 다운로드할 것!!**
 ### **이미지 생성시 {imageName}:{version}을 주의하여 적을 것!!**
 
+### **이미지 빌드**  
+```docker build -t interface:v1.1 .```  
+
+
+### **컨테이너 실행**  
+```docker run --name=interface -d -t interface:v1.1```  
+
+
+### **vscode 원격 접속**   
+
+
+
+
+
 ```
 1. Interface 폴더를 만든다.
 2. 그 안에 다운 받은 Dockerfile을 넣는다. (requirement.txt 파일이 있다면 같이)
@@ -20,13 +34,3 @@
 >Your Name => 이름  
 >youremail@example.com => 이메일 주소  
 >branch Name => 브랜치 이름  
-
-### **이미지 빌드**  
-```docker build -t interface:v1.1 .```  
-
-
-### **컨테이너 실행**  
-```docker run --name=interface -d -t interface:v1.1```  
-
-
-### **vscode 원격 접속**

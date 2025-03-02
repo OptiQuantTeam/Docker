@@ -11,6 +11,11 @@ Web Server : v1.1
 
 
 ## AI
+>version : v1.2.1  
+>Update :  
+>- Date : 2025.03.02
+>- Deatails : nvidia GPU용 Docker 이미지 빌드 및 컨테이너 생성 추가    
+
 >version : v1.2  
 >Update :  
 >- Date : 2025.01.05
