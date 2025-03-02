@@ -3,7 +3,7 @@
 
 ### **이미지 빌드**  
 ```
-docker build -t trader:v1.1 .
+docker build -t trader:v1.1.1 .
 ```  
 
 
