@@ -15,4 +15,4 @@ RUN git config --global user.name "Your Name" \
 
 WORKDIR /usr/src/app/Capstone
 
-RUN git clone -b "branch Name" https://github.com/OptiQuantTeam/Interface.git .
+RUN git clone -b "branch Name" https://github.com/OptiQuantTeam/Trader.git .

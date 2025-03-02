@@ -5,15 +5,20 @@ RUN apt-get install git -y
 
 WORKDIR /app
 
-RUN git config --global user.name "Your Name" \
-    && git config --global user.email "youremail@example.com"
+RUN git config --global user.name lucas \
+    && git config --global user.email wymam1@gmail.com
 
 # github repository에 있는 파일 가져오기
-RUN git clone -b "branch Name" https://github.com/OptiQuantTeam/WebServer.git .
+RUN git clone -b develop https://github.com/OptiQuantTeam/WebApp.git /app
+
+
+WORKDIR /app/backend
+RUN npm install
 
 # package.json 워킹 디렉토리에 복사 (.은 설정한 워킹 디렉토리를 뜻함)
 #COPY package.json .
 # 명령어 실행 (의존성 설치)
+WORKDIR /app/frontend
 RUN npm install
 # 현재 디렉토리의 모든 파일을 도커 컨테이너의 워킹 디렉토리에 복사한다.
 
