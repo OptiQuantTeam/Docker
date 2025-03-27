@@ -1,22 +1,23 @@
 ### **requirement.txt 파일을 꼭 다운로드할 것!!**  
 ### **이미지 생성시 {imageName}:{version}을 주의하여 적을 것!!**
+### **\<tag\>를 지우고 원하는 문자를 넣을 것!!**
 
 ### **이미지 빌드 및 컨테이너 실행**  
 Nvidia GPU 이용시
 ```
-docker build -t ai:v1.2.1 .
+docker build -t ai-<tag>:v1.2.1 .
 ```  
 ```
-docker build -t ai:v1.2 .
+docker build -t ai-<tag>:v1.2 .
 ```  
 
 ### **컨테이너 실행**  
 Nvidia GPU 이용시
 ```
-docker run --gpus all --name=ai -d -t ai:v1.2.1
+docker run --gpus all --name=ai-<tag> -d -t ai-<tag>:v1.2.1
 ```   
 ```
-docker run --name=ai -d -t ai:v1.2
+docker run --name=ai-<tag> -d -t ai-<tag>:v1.2
 ```  
 
 
