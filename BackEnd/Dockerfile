@@ -12,7 +12,7 @@ RUN git config --global user.name "Your Name" \
 RUN git clone -b "branch Name" https://github.com/OptiQuantTeam/BackEnd.git /app
 
 
-WORKDIR /app/backend
+WORKDIR /app
 RUN npm install
 
 
